@@ -8,7 +8,7 @@ jobs:
          - name: echo a string
            run: echo "Eat Chicken"
          - name: multiline Command
-            run: |
+           run: |
              node -v
              npm -v
     parallel-job-macos:
